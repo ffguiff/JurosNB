@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<meta nome="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Juros NB</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="CSS.css" media="screen" />
+
+<body>
+    <div class= "fundo" id ="fundo" onclick= "voltar()">
+        <div class = "resultado">
+            <a class="text" id ="text"></a>
+            <br/>
+            <a class= "lucro" id="lucro" ></a> 
+        </div>
+    </div>
+<div class= "tudo">
+    <div class = "logo">
+        <img id = "logoNb" src=https://logospng.org/download/nubank/logo-nubank-roxo-4096.png>
+    </div>
+    <div class = "porco">
+        <img id = porco src=https://cdn-icons-png.flaticon.com/512/343/343203.png>
+        <br/>
+        <a class= "info">13,15%</a>
+        <br/>
+        <a class = "info1">Juro ao ano</a>
+    </div>
+    <div class="valor">
+        <input placeholder="VALOR" type="text" class="campo" id = "valor" required>
+        <br/>
+        <input placeholder="TEMPO EM DIAS" type="text" class="campo" id = "tempo" required>
+        <br/>
+        <button class = "calcular" onclick ="calcular()">CALCULAR</button>
+    </div>
+    <div class = "links">
+        <img class="link" onclick="link()" id = "git" src=https://cdn-icons-png.flaticon.com/512/2111/2111425.png>
+        <img class="link"  onclick="linkI()" id = "linkedin" src=https://cdn-icons-png.flaticon.com/512/145/145807.png>
+    </div>
+</div>
+<script type="text/javascript" src="JS.js"></script>
+</body>
+</html>
